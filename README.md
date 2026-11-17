@@ -1,6 +1,6 @@
-# mos_灯光混合 v1.3.2
+# mos_灯光混合 / mos_lightmix v1.4.0
 
-EffectCraft 版的 Light Wrap（复刻 Digital Anarchy *Light Wrap Fantastic 1.3.1*）：
+EffectCraft 版的 Light Wrap 效果（灵感来自 Digital Anarchy 的同类效果，代码与素材均为独立实现）：
 把背景层的光「绕」到抠像主体的边缘上，让合成看起来不是贴上去的。
 
 ![合成模式](docs/01-composite.png)
