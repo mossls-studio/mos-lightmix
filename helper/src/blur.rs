@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 MOSSLS
+
 //! Separable box blur stacked into an approximate Gaussian.
 //!
 //! A plane is blurred by alternating horizontal box passes with 90 degree rotations, so every

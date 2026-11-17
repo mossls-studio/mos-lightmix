@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 MOSSLS
+
 //! Light Wrap Fantastic: the effect itself.
 //!
 //! The foreground's alpha edge is grown inwards (a blur of the alpha subtracted from the alpha),

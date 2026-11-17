@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 MOSSLS
+
 //! effectcraft-helper-lightwrap: an EffectCraft external effect helper that offers
 //! mos_灯光混合 (Light Wrap Fantastic 复刻) as an effect.
 //!

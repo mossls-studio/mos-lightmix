@@ -182,3 +182,9 @@ python tools/protocol_check.py           # 11 项：hello / describe / padding �
                                          # 无背景层渲染 / 等不到图超时回 error 且进程不死 /
                                          # 等图期间 padding 有应答 / 第二次渲染命中缓存
 ```
+
+---
+
+## 许可 / License
+
+AGPL-3.0-or-later（GNU Affero 通用公共许可证第 3 版或更高版本），见仓库根目录的 `LICENSE`。

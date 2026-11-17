@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 MOSSLS
+
 //! Language selection for the MOS suite helper.
 //!
 //! The suite installer writes `%APPDATA%\EffectCraft\mos-suite.json` containing
