@@ -50,7 +50,7 @@ pub fn manifest() -> serde_json::Value {
         "id": "mos.lightwrap",
         "name": "mos_灯光混合",
         "category": "MOS 视效",
-        "version": "1.4.0",
+        "version": "1.5.0",
         "author": "MOSSLS",
         "description": "让背景的光绕过抠像主体的边缘包裹进来，模拟镜头背光衍射。",
         "params": [

@@ -22,7 +22,7 @@ use std::time::{Duration, Instant};
 
 const MAGIC: &str = "@ec-helper ";
 const PROTOCOL_VERSION: u32 = 1;
-const HELPER_VERSION: &str = "1.4.0";
+const HELPER_VERSION: &str = "1.5.0";
 
 #[derive(Clone, Copy, Debug, Deserialize, Serialize)]
 struct ImageRef {

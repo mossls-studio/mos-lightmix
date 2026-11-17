@@ -1,4 +1,4 @@
-# mos_灯光混合 / mos_lightmix v1.4.0
+# mos_灯光混合 / mos_lightmix v1.5.0
 
 EffectCraft 版的 Light Wrap 效果（灵感来自 Digital Anarchy 的同类效果，代码与素材均为独立实现）：
 把背景层的光「绕」到抠像主体的边缘上，让合成看起来不是贴上去的。
@@ -48,6 +48,16 @@ EffectCraft **默认不会在启动时启动外部 helper**，所以还要装一
 > 找不到效果、或者加了没反应，先看这一条。
 
 > 已在 EffectCraft 0.24.1 上验证；不需要 AE、不需要 Python，只依赖 EffectCraft 自带的 helper 协议。
+
+### 语言
+
+helper 是同一份 exe，启动时按下面的顺序决定分组/效果名（names）和参数名/选项（params）的语言：
+
+1. 环境变量 `MOS_NAMES_LANG` / `MOS_PARAMS_LANG`（`zh` 或 `en`；`MOS_LANG` 同时设置两者，供调试用）；
+2. `%APPDATA%\EffectCraft\mos-suite.json` 的 `namesResolved` / `paramsResolved`（套件安装器写入的实际生效语言）；
+3. 同一文件的 `namesLanguage` / `paramsLanguage`（`system` 按英文处理）；
+4. 旧版的 `effectsLanguage`（同时设置两者）；
+5. 都没有时英文。
 
 ## 三、用法
 
