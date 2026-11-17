@@ -1,0 +1,42 @@
+{
+  "category": {
+    "en": "MOS VFX"
+  },
+  "name": {
+    "en": "mos_lightmix"
+  },
+  "description": {
+    "en": "Wraps the background's light around the edges of a keyed subject, simulating lens back-light diffraction. Blur the background, choose a blend mode, and mask the wrap with a gradient or a second layer."
+  },
+  "params": {
+    "render": {
+      "name": { "en": "Render" },
+      "options": { "en": ["Composite", "Glow Only"] }
+    },
+    "background": { "name": { "en": "Background" } },
+    "backgroundColor": { "name": { "en": "Background Color" } },
+    "backgroundBlur": { "name": { "en": "Background Blur" } },
+    "scaleBackground": { "name": { "en": "Scale Background" } },
+    "size": { "name": { "en": "Size" } },
+    "blendMode": {
+      "name": { "en": "Blend Mode" },
+      "options": { "en": ["Soft Light", "Overlay", "Add", "Multiply", "Screen", "Color"] }
+    },
+    "brightness": { "name": { "en": "Brightness" } },
+    "showMask": { "name": { "en": "Show Mask" } },
+    "maskStyle": {
+      "name": { "en": "Mask Style" },
+      "options": { "en": ["Gradient", "Layer"] }
+    },
+    "maskCenter": { "name": { "en": "Center" } },
+    "maskWidth": { "name": { "en": "Width" } },
+    "maskAngle": { "name": { "en": "Angle" } },
+    "maskLayer": { "name": { "en": "Mask Input" } },
+    "maskChannel": {
+      "name": { "en": "Mask Channel" },
+      "options": { "en": ["Luminance", "Alpha"] }
+    },
+    "maskInvert": { "name": { "en": "Invert Mask" } },
+    "useGpu": { "name": { "en": "Use GPU" } }
+  }
+}
